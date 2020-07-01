@@ -77,3 +77,14 @@ if(username.length >= 8){
 } else {
     console.log('That username is not long enough !');
 }
+
+// if, else if, else statement
+const rate = '012345';
+
+if(rate.length <= 3 ){
+    console.log('That rate is too poor !');
+} else if(rate.length === 4) {
+    console.log('That rate is good enough !');
+} else {
+    console.log('That rate is perfect !');
+}
