@@ -180,3 +180,45 @@ console.log(umur, umur+3, `the age is ${umur}`);
 
 let umur1 = null;
 console.log(umur1, umur1+3, `the age is ${umur1}`);
+
+
+// BOOLEANS and COMPARISONS
+console.log(true, false, 'true', 'false');
+
+// methods can return booleans
+let gmail = 'agusbektir@gmail.com';
+let names = ['Ari', 'Tridian','Cahyo', 'Mas Oni'];
+
+let result22 = email.includes('x');
+let result23 = names.includes('Tridian');
+console.log(result22);
+console.log(result23);
+
+// comparison operators
+let age = 25;
+
+console.log(age == 25);
+console.log(age == 30);
+console.log(age != 30);
+console.log(age != 25);
+console.log(age = 25);
+console.log(age > 25);
+console.log(age < 25);
+console.log(age <= 25);
+console.log(age >= 25);
+console.log(age = 25);
+console.log(age <= 30);
+console.log(age >= 30);
+
+/*comparison pada huruf
+abjad depan < abjad belakang,
+huruf kapital < huruf kecil,
+abjad depan kecil > abjad belakang kapital
+*/
+let nama = 'Ari';
+console.log(nama = 'Ari');
+console.log(nama == 'Ari');
+console.log(nama == 'ari');
+console.log(nama > 'bekti');
+console.log(nama < 'Bekti');
+console.log(nama > 'ari');
