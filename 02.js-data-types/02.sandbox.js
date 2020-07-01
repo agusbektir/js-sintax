@@ -1,4 +1,4 @@
-// string
+// STRING
 console.log('hello, world');
 
 let email = 'agusbektir@gmail.com'
@@ -69,3 +69,34 @@ only the first char found
 */
 let result10 = email1.replace('a','u');
 console.log(result10);
+
+// NUMBER
+let radius = 10;
+const pi = 3.14;
+
+console.log(radius, pi);
+
+// math operators +, -, *, /, **, %
+console.log(10/2);
+
+let result11 = pi * radius ** 2;
+console.log(result11);
+
+/* order of operation -
+Brackets, Indices,
+Division, Multiplication,
+Addition, Substraction
+*/
+
+let result12 = 5 * ( 10 - 3 ) ** 2;
+console.log(result12);
+
+let likes = 10;
+// likes = likes + 1;
+// likes--;
+// likes++;
+// likes += 10;
+// likes -= 10;
+// likes *= 10;
+likes /= 10;
+console.log(likes);
