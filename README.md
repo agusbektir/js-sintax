@@ -1,1 +1,1 @@
-# js-sintax
+# js-syntax and data types
