@@ -83,8 +83,22 @@ const rate = '012345';
 
 if(rate.length <= 3 ){
     console.log('That rate is too poor !');
-} else if(rate.length === 4) {
+} else if(rate.length == 4) {
     console.log('That rate is good enough !');
 } else {
     console.log('That rate is perfect !');
+}
+
+
+// logical operators - OR || and AND &&
+// const sandi = '123';
+const sandi = '123*123abc';
+// const sandi = '123*123';
+
+if(sandi.length == 7 && sandi.includes('*') ){
+    console.log('That sandi is right ! Congratulaions !');
+} else if(sandi.length > 7 && sandi.includes('*')) {
+    console.log('That sandi is contains the symbol but too long');
+} else {
+    console.log('That sandi is totally wrong !');
 }
