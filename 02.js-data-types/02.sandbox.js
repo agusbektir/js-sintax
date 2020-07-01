@@ -222,3 +222,17 @@ console.log(nama == 'ari');
 console.log(nama > 'bekti');
 console.log(nama < 'Bekti');
 console.log(nama > 'ari');
+
+
+// loose comparison (different types can still be equal)
+let umur2 = 27;
+console.log(umur2 == 27);
+console.log(umur2 == '27');
+console.log(umur2 != 27);
+console.log(umur2 != '27');
+
+// strict comparison (different types cannot be equal)
+console.log(umur2 === 27);
+console.log(umur2 === '27');
+console.log(umur2 !== 27);
+console.log(umur2 !== '27');
