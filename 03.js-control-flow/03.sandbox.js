@@ -17,9 +17,9 @@ for(let i = 0; i < names.length; i++){
 
 
 // while loops
-let q = 0;
+let q = 5;
 while(q < 5){
-    console.log('in loop = ', q);
+    console.log('q in loop = ', q);
     q++;
 }
 
@@ -29,3 +29,11 @@ while(w < jenengs.length){
     console.log(jenengs[w]);
     w++;
 }
+
+
+// do while loops
+let e = 5;
+do{
+    console.log('val of e is = ', e);
+    e++;
+}while(e < 5);
