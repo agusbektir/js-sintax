@@ -172,3 +172,11 @@ console.log(ninjas);
 result21 = ninjas.pop();
 console.log(ninjas);
 console.log(result21);
+
+
+// NULL adn UNDIFINED
+let umur;
+console.log(umur, umur+3, `the age is ${umur}`);
+
+let umur1 = null;
+console.log(umur1, umur1+3, `the age is ${umur1}`);
