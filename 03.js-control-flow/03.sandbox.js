@@ -37,3 +37,43 @@ do{
     console.log('val of e is = ', e);
     e++;
 }while(e < 5);
+
+
+// if statements
+const age = 20;
+
+if(age > 20){
+    console.log('You are over 20 years old.');
+} //return false so dont print on console
+
+
+if(age > 15){
+    console.log('You are less than 20 years old.');
+} //return true so do print on console
+
+const hunters = ['killua', 'gon', 'leorio'];
+
+if(hunters.length > 0){
+    console.log(`We have ${hunters.length} hunters.`);
+    console.log("this is our hunters.");
+}
+
+if(hunters.length > 3){
+    console.log("too much hunters, bro !");
+}
+
+const password = '01234567';
+
+if(password.length >= 8){
+    console.log('That password is long enough !');
+}
+
+// if else statement
+// const username = 'agusbekirrrrr';
+const username = 'agusbe';
+
+if(username.length >= 8){
+    console.log('That username is long enough !');
+} else {
+    console.log('That username is not long enough !');
+}
