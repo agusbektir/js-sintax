@@ -236,3 +236,63 @@ console.log(umur2 === 27);
 console.log(umur2 === '27');
 console.log(umur2 !== 27);
 console.log(umur2 !== '27');
+
+
+// type conversion
+/* string + number = concat to string
+*/
+let score = '100';
+console.log(score + 1);
+
+/* add variable as argument in Number() method
+to make number as string becomes number
+*/
+let score1 = '100';
+score1 = Number(score1);
+console.log(score1 + 1);
+
+// check type of the data
+console.log(typeof score);
+console.log(typeof score1);
+
+let result24 = Number('hello');
+console.log(result24);
+
+/* add variable as argument in String() method
+to make number as number becomes string
+*/
+let result25 = String(50);
+console.log(result25, typeof result25);
+
+
+// Boolean() with argument number becomes true, except 0
+let result26 = Boolean(1000);
+console.log(result26, typeof result26);
+
+let result27 = Boolean(834238);
+console.log(result27, typeof result27);
+
+let result28 = Boolean(0);
+console.log(result28, typeof result28);
+
+let result31 = Boolean(-1);
+console.log(result31, typeof result31);
+
+let result32 = Boolean(-1010101);
+console.log(result32, typeof result32);
+
+/* Boolean() with argument string becomes true,
+except string with no lenght,
+string with space still true
+*/
+let result29 = Boolean('hello');
+console.log(result29, typeof result29);
+
+let result30 = Boolean('world');
+console.log(result30, typeof result30);
+
+let result33 = Boolean('');
+console.log(result33, typeof result33);
+
+let result34 = Boolean(' ');
+console.log(result34, typeof result34);
