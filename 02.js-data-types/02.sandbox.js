@@ -131,3 +131,44 @@ let html = `
     <span>This blog has ${loves} loves.</span>
 `;
 console.log(html);
+
+
+// ARRAY
+let ninjas = ['Agus', 'Bekti', 'Rohmadi'];
+ninjas[1] = 'Jono';
+console.log(ninjas);
+console.log(ninjas[0]);
+console.log(ninjas[1]);
+console.log(ninjas[2]);
+console.log(ninjas[3]);
+ninjas[1] = 'Jono';
+
+let ages = [20,25,30,35,40];
+console.log(ages[0]);
+console.log(ages[0]*5);
+
+let campuran = [20,'Agus',30,'Bekti',40,'Rohmadi'];
+console.log(campuran);
+console.log(campuran[0]);
+console.log(campuran[1]*5);
+
+console.log(ninjas.length);
+
+let result16 = ninjas.join('+ +');
+console.log(result16);
+
+let result17 = ninjas.indexOf('Rohmadi');
+console.log(result17);
+let result18 = ninjas.indexOf('Rohmadoizzzz');
+console.log(result18);
+
+let result19 = ninjas.concat(['Ari', 'Dian']);
+console.log(result19);
+
+let result20 = ninjas.push('Ari','Oni','Cahyo');
+console.log(ninjas);
+
+
+result21 = ninjas.pop();
+console.log(ninjas);
+console.log(result21);
