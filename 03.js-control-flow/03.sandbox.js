@@ -91,14 +91,25 @@ if(rate.length <= 3 ){
 
 
 // logical operators - OR || and AND &&
-// const sandi = '123';
-const sandi = '123*123abc';
-// const sandi = '123*123';
+// const code = '123';
+const code = '123*123abc';
+// const code = '123*123';
 
-if(sandi.length == 7 && sandi.includes('*') ){
-    console.log('That sandi is right ! Congratulaions !');
-} else if(sandi.length > 7 && sandi.includes('*')) {
-    console.log('That sandi is contains the symbol but too long');
+if(code.length == 7 && code.includes('*') ){
+    console.log('That code is right ! Congratulaions !');
+} else if(code.length > 7 && code.includes('*')) {
+    console.log('That code is contains the symbol but too long');
 } else {
-    console.log('That sandi is totally wrong !');
+    console.log('That code is totally wrong !');
 }
+
+
+//logical NOT (!)
+let user = false;
+
+if(!user){
+    console.log('You must true to continue');
+}
+
+console.log(!true);
+console.log(!false);
