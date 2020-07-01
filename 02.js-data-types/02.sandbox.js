@@ -91,12 +91,43 @@ Addition, Substraction
 let result12 = 5 * ( 10 - 3 ) ** 2;
 console.log(result12);
 
-let likes = 10;
+let likes = 10000;
 // likes = likes + 1;
 // likes--;
 // likes++;
 // likes += 10;
 // likes -= 10;
 // likes *= 10;
-likes /= 10;
+likes /= 5;
 console.log(likes);
+
+
+// NaN -> Not a Number
+console.log(5/'hello world');
+console.log(1000 * 'hello world');
+
+// concatenate number
+let result13 = 'Total likes = '+likes+' likes';
+console.log(result13);
+
+
+// template strings
+const title = 'Best regards of 2020';
+const author = 'Agus Bekti';
+const loves = 3000;
+
+// concenation way
+let result14 = 'The blog called '+title+' by '+author+' has '+loves+' loves.';
+console.log(result14);
+
+// template string way
+let result15 = `The blog called ${title} by ${author} has ${loves} loves.`
+console.log(result15);
+
+// creating html templates
+let html = `
+    <h2>${title}</h2>
+    <p>By ${author}</p>
+    <span>This blog has ${loves} loves.</span>
+`;
+console.log(html);
