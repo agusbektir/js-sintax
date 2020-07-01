@@ -113,3 +113,21 @@ if(!user){
 
 console.log(!true);
 console.log(!false);
+
+
+// break and conditions
+const uas = [ 50, 25, 0, 30, 100, 20, 30];
+
+for(let r = 0; r < uas.length; r++){
+
+    if(uas[r] === 0 ){
+        continue;
+    }
+
+    console.log('your uas = ', uas[r]);
+
+    if(uas[r] === 100 ){
+        console.log('Congrats, you got the top score !');
+        break;
+    }
+}
